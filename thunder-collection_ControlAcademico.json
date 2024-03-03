@@ -1,0 +1,294 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ControlAcademico",
+    "dateExported": "2024-03-03T00:45:30.075Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "6e3f989f-0518-401e-a33c-ca279e95811e",
+            "name": "User",
+            "containerId": "",
+            "created": "2024-02-23T04:06:23.722Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "43bfadfd-b0d1-49dc-9a83-62088fe24a20",
+            "name": "curs",
+            "containerId": "",
+            "created": "2024-02-23T04:41:38.616Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "56678875-ffd9-45ec-9008-3279cea9a75a",
+            "colId": "21ec40d4-2453-414d-aa15-edf045320fb7",
+            "containerId": "43bfadfd-b0d1-49dc-9a83-62088fe24a20",
+            "name": "test",
+            "url": "testC",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-02-23T04:41:49.694Z",
+            "modified": "2024-03-02T23:51:37.690Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": ""
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a6c8950d-7c62-49af-843d-6eae76455cd1",
+            "colId": "21ec40d4-2453-414d-aa15-edf045320fb7",
+            "containerId": "6e3f989f-0518-401e-a33c-ca279e95811e",
+            "name": "test",
+            "url": "test",
+            "method": "GET",
+            "sortNum": 75000,
+            "created": "2024-03-03T00:43:52.876Z",
+            "modified": "2024-03-03T00:44:55.483Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzYmI3NDc4NjJlZjk0NzY5MzczOWUiLCJ1c2VybmFtZSI6Impvc3VlIiwibmFtZSI6Ikpvc3VlIiwicm9sZSI6IlRFQUNIRVIiLCJpYXQiOjE3MDk0MjY2ODYsImV4cCI6MTcwOTQzNzQ4Nn0.Na2wBigMFTgl_k05YX-9Rcs73YsZ2pmPi1XjwWA5KQE"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "099b80b9-529e-425d-b910-dd66a4f918e4",
+            "colId": "21ec40d4-2453-414d-aa15-edf045320fb7",
+            "containerId": "43bfadfd-b0d1-49dc-9a83-62088fe24a20",
+            "name": "registerCourses",
+            "url": "register",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-02-23T04:58:40.848Z",
+            "modified": "2024-03-02T23:59:00.924Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzYmM2Yjc4NjJlZjk0NzY5MzczYTYiLCJ1c2VybmFtZSI6Im1pZ3VlbCIsIm5hbWUiOiJNaWd1ZWwiLCJyb2xlIjoiVEVBQ0hFUiIsImlhdCI6MTcwOTQyMzkzMCwiZXhwIjoxNzA5NDM0NzMwfQ.rwuhCZSJhCAa8a0plzx0kKqduZy8H7IzMmugUhxOuSo"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Matematicas"
+                    },
+                    {
+                        "name": "section",
+                        "value": "B"
+                    },
+                    {
+                        "name": "teacher",
+                        "value": "65e3bc6b7862ef94769373a6"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "772eaa7d-6d7e-4a76-b560-68c528b41bca",
+            "colId": "21ec40d4-2453-414d-aa15-edf045320fb7",
+            "containerId": "6e3f989f-0518-401e-a33c-ca279e95811e",
+            "name": "saveTeacher",
+            "url": "saveTeacher",
+            "method": "POST",
+            "sortNum": 150000,
+            "created": "2024-03-02T23:26:14.522Z",
+            "modified": "2024-03-02T23:55:23.949Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Miguel"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Suruy"
+                    },
+                    {
+                        "name": "username",
+                        "value": "miguel"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "courses",
+                        "value": "65e3b9dab7adecdf19868c59"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "7170dd6c-2f52-4559-b014-7f297138dfc9",
+            "colId": "21ec40d4-2453-414d-aa15-edf045320fb7",
+            "containerId": "6e3f989f-0518-401e-a33c-ca279e95811e",
+            "name": "Course",
+            "url": "courses",
+            "method": "GET",
+            "sortNum": 155000,
+            "created": "2024-03-03T00:01:33.973Z",
+            "modified": "2024-03-03T00:16:03.842Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzYmM2Yjc4NjJlZjk0NzY5MzczYTYiLCJ1c2VybmFtZSI6Im1pZ3VlbCIsIm5hbWUiOiJNaWd1ZWwiLCJyb2xlIjoiVEVBQ0hFUiIsImlhdCI6MTcwOTQyNDk1NywiZXhwIjoxNzA5NDM1NzU3fQ.Vycbm3_D2Aeah4OB7yREw14gveAn64x9FulTYhT24ag"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6f069004-1ba4-4e77-9eb7-4cfa8a18f6da",
+            "colId": "21ec40d4-2453-414d-aa15-edf045320fb7",
+            "containerId": "6e3f989f-0518-401e-a33c-ca279e95811e",
+            "name": "saveStudent",
+            "url": "saveStudent",
+            "method": "POST",
+            "sortNum": 160000,
+            "created": "2024-03-02T23:34:51.187Z",
+            "modified": "2024-03-03T00:40:48.822Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Pablo"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Cuellar"
+                    },
+                    {
+                        "name": "username",
+                        "value": "pablo"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "21c20dfa-fd75-4fdc-81fa-08077c979b7d",
+            "colId": "21ec40d4-2453-414d-aa15-edf045320fb7",
+            "containerId": "6e3f989f-0518-401e-a33c-ca279e95811e",
+            "name": "login",
+            "url": "logins",
+            "method": "POST",
+            "sortNum": 170000,
+            "created": "2024-03-02T23:38:31.169Z",
+            "modified": "2024-03-03T00:44:46.947Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "josue"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "8574481c-7555-4ee2-b1ad-9ebcdbc3f039",
+            "colId": "21ec40d4-2453-414d-aa15-edf045320fb7",
+            "containerId": "43bfadfd-b0d1-49dc-9a83-62088fe24a20",
+            "name": "StudentCourse",
+            "url": "courses",
+            "method": "GET",
+            "sortNum": 190000,
+            "created": "2024-03-03T00:14:02.048Z",
+            "modified": "2024-03-03T00:15:41.879Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzYjdmYmE0NmRjYTAwOWVlYTFkMDgiLCJ1c2VybmFtZSI6ImNhcm1hcyIsIm5hbWUiOiJDYXJsb3MiLCJyb2xlIjoiU1RVREVOVCIsImlhdCI6MTcwOTQyNDU0OCwiZXhwIjoxNzA5NDM1MzQ4fQ.kxmsuchD3lQpqhT99WUpbn-MxpVV7DZAcjD7hfez-KE"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "eaf94715-051d-4800-a5cd-45cbe89a42aa",
+            "colId": "21ec40d4-2453-414d-aa15-edf045320fb7",
+            "containerId": "43bfadfd-b0d1-49dc-9a83-62088fe24a20",
+            "name": "viewcourses",
+            "url": "myCourses",
+            "method": "GET",
+            "sortNum": 210000,
+            "created": "2024-03-03T00:23:55.077Z",
+            "modified": "2024-03-03T00:26:09.698Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzYjdmYmE0NmRjYTAwOWVlYTFkMDgiLCJ1c2VybmFtZSI6ImNhcm1hcyIsIm5hbWUiOiJDYXJsb3MiLCJyb2xlIjoiU1RVREVOVCIsImlhdCI6MTcwOTQyNTU2MywiZXhwIjoxNzA5NDM2MzYzfQ.Kx0Zxx8MkFD1Vt8ecc3GoVo7KKpkEbLOGRLqWkfGLlc"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "67b42bfb-9606-4e9d-8739-3c3fce05d128",
+            "colId": "21ec40d4-2453-414d-aa15-edf045320fb7",
+            "containerId": "43bfadfd-b0d1-49dc-9a83-62088fe24a20",
+            "name": "assingme",
+            "url": "assignMe",
+            "method": "PUT",
+            "sortNum": 220000,
+            "created": "2024-03-03T00:28:44.908Z",
+            "modified": "2024-03-03T00:42:09.035Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzYzcxMDdmMWQ0ODdlZTRkMGYxMjMiLCJ1c2VybmFtZSI6InBhYmxvIiwibmFtZSI6IlBhYmxvIiwicm9sZSI6IlNUVURFTlQiLCJpYXQiOjE3MDk0MjY0NzgsImV4cCI6MTcwOTQzNzI3OH0.kM7p-M-gVaalpPTogbykmXmdZdaJ_Il2Uyyai69Y090"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "courses",
+                        "value": "65e3b9dab7adecdf19868c59"
+                    }
+                ]
+            },
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2500/"
+        }
+    }
+}
